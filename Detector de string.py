@@ -1,0 +1,6 @@
+print('=======   Desafio 5   =======')
+n = input('Digite alguma coisa:')
+print('O que você digitou é um numero?', n.isnumeric())
+print('O que você digitou é um numero inteiro?', n.isalnum())
+print('Ele é um espaço?', n.isspace())
+print('Você digitou o valor {} e o tipo primitivo é'.format(n), type(n))
